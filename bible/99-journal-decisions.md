@@ -11,11 +11,18 @@
 - Une bible hébergée sur GitHub, avec des instructions pour que toute nouvelle discussion du projet y accède.
 - Plus de badge permanent « M Moustakim » : visage de Mo en dernière scène et en avatar dans les scènes de messages.
 
+**Retours de Mo sur la planche v1 (6 novembre, après-midi) — Validé**
+- Plus de courbe ni de ligne de progression en bas : supprimée de la charte.
+- Ouverture en conversation de type WhatsApp (Hello → Bonjour → la demande).
+- Une phrase au milieu de l'écran, rarement deux.
+- Plus d'objets et de motion design, y compris en 3D, pas seulement du texte. « Tu ouvres Power BI » : montrer un dashboard (ou le logo) à l'écran.
+- User story en puces qui apparaissent ligne par ligne.
+- User story validée : le DG veut savoir quelles zones du projet agricole sont en retard, pour décider où envoyer l'équipe de terrain.
+
 **Propositions de Claude, non encore validées**
 - Série « Avant d'ouvrir Power BI », 5 épisodes.
 - Série « Du brut au beau ».
 - Cadence mardi/jeudi, alternance des séries.
-- Signature « courbe de données » à 76 %.
 
 ## À vérifier avant usage
 
@@ -23,5 +30,7 @@
 - « 2 semaines → 1 journée » : à mesurer, ne pas annoncer sans mesure.
 - Autorisation UNV pour de futures formations.
 - Taille des légendes : ≈42 px mesuré vs 64–76 px dans la charte.
+- Logo Power BI (marque Microsoft) : Claude ne le dessine pas ; fichier officiel à fournir par Mo si voulu.
+- Charte publiée (artifact) : contient encore la courbe dans les planches et les gabarits, à mettre à jour.
 - « Le petit rat » (mentionné par Mo dans un message sur les gabarits) : probablement un petit élément graphique, à préciser.
 - Photo nette de Mo pour la dernière scène.

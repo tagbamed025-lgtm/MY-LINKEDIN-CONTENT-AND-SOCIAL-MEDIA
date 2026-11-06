@@ -34,13 +34,13 @@ Inter Tight (400/500/700/800, interlettrage −3 %). Instrument Serif italique p
 - Apparition mot par mot : 0,25 à 0,35 s par mot, du gris d'entrée à l'encre.
 - Courbe easeOutQuint. Entrée d'une carte : 0,85 s, zoom 0,62 → 1, flou 20 → 0. Sorties : 0,4 à 0,6 s.
 - Aucune image fixe au-delà de 1,2 s. Poussée de caméra lente (1 % par seconde).
-- Pas de badge permanent. Le visage de Mo apparaît dans la dernière scène et comme avatar dans les scènes de messages.
+- Pas de badge permanent, pas de courbe de progression. Le visage de Mo apparaît dans la dernière scène et comme avatar dans les scènes de messages.
 - Zone de sécurité : rien dans les 15 % du haut ni les 12 % du bas.
 - Planche de vignettes validée avant tout rendu. Fichiers nommés avec une version (v1, v2…).
 
 ## Signature
 
-Fine « courbe de données » (une courbe, un point par scène, dernier point à l'appel à l'action) à 76 % de hauteur. **Proposition**, à confirmer.
+Aucune courbe ni ligne de progression en bas de l'écran (décision de Mo, 6 novembre 2026). Le visuel reste propre : un fond, un objet ou une phrase, rien d'autre.
 
 ## Gabarits (mesurés sur les 7 vidéos de référence)
 
@@ -52,7 +52,9 @@ Fine « courbe de données » (une courbe, un point par scène, dernier point à
 | 4. Message | avatar à gauche (17–27 %), bulle à 44 % du haut, 10 % de haut, gauche 29 %, droite 19 % ; carte de sondage dessous |
 | 5. Chiffre héros | 35 % du haut, 17 % de haut, 150–175 px ; légende à 61 % |
 
-Une phrase : 2 lignes maximum, toujours centrée. Taille exacte des légendes (≈42 px mesuré sur les références, 64–76 px dans la charte) : **à confirmer** sur la première planche.
+Une phrase : 2 lignes maximum, toujours centrée. Une scène = une phrase au milieu (rarement deux).
+
+Privilégier un objet par scène (dashboard 3D, téléphone, tuile, cartes) plutôt que du texte seul : Mo trouvait la v1 trop « que du texte ». Taille exacte des légendes (≈42 px mesuré sur les références, 64–76 px dans la charte) : **à confirmer** sur la première planche.
 
 ## Son
 
