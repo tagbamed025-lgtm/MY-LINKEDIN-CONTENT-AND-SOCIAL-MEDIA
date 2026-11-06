@@ -19,6 +19,13 @@
 - User story en puces qui apparaissent ligne par ligne.
 - User story validée : le DG veut savoir quelles zones du projet agricole sont en retard, pour décider où envoyer l'équipe de terrain.
 
+**Retours de Mo sur la planche v2 (6 novembre) — Validé**
+- La messagerie doit suivre la vidéo de référence : bulles flottantes, pas de téléphone ni d'écran WhatsApp.
+- « Tu ouvres Power BI » : une seule phrase sur une seule ligne, avec le logo Power BI.
+- « Qu'est-ce qu'il veut décider ? » : une seule ligne, fondu, puis le mot « décider » avec une petite icône « ? ».
+- La scène « Montrer / Décider » est bonne.
+- À suivre : comment la référence place les textes (légende sous l'objet).
+
 **Propositions de Claude, non encore validées**
 - Série « Avant d'ouvrir Power BI », 5 épisodes.
 - Série « Du brut au beau ».

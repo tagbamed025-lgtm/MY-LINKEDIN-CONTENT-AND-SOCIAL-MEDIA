@@ -2,13 +2,13 @@
 
 Registre vivant. À lire au début de toute discussion de contenu. Mis à jour à la fin de chaque séance, après validation de Mo.
 
-Dernière mise à jour : 6 novembre 2026 (15 h 15)
+Dernière mise à jour : 6 novembre 2026 (15 h 40)
 
 ## Contenus
 
 | N° | Titre | Ligne / série | Étape actuelle | Publié le | Lien LinkedIn | Prochaine action |
 |---|---|---|---|---|---|---|
-| 001 | Ton DG te demande un dashboard | A — Avant d'ouvrir Power BI #1 | Script v2 écrit, planche v2 à valider | — | — | Mo valide la planche et enregistre sa voix (2 prises), puis rendu |
+| 001 | Ton DG te demande un dashboard | A — Avant d'ouvrir Power BI #1 | Script v3 écrit, planche v3 à valider | — | — | Mo valide la planche et enregistre sa voix (2 prises), puis rendu |
 | 002 | Du brut au beau #1 (rapport trimestriel fictif → rapport designé) | B — Du brut au beau | Idée validée, à tester | — | — | Test Canva sur un rapport fictif avant d'écrire le script |
 | 003 | Carrousel : la fiche besoin métier | D — Posts image | Idée | — | — | Après la publication du 001 |
 | — | D'ici 2030 (v7) | Hors série, à reprogrammer | Archivée (v7 jugée trop fade) | — | — | Reprendre en vidéo 3 ou 4 après vérification des sources |
@@ -19,9 +19,10 @@ Idée → Script → Voix → Planche validée → Rendu → Revue → Publiée
 
 ## Ce qui attend une décision de Mo
 
-- Planche v2 et script v2 de la vidéo 001 (retours de Mo appliqués : WhatsApp, objets 3D, puces, plus de courbe).
+- Planche v3 et script v3 de la vidéo 001 (messagerie comme la référence, une ligne par scène, logo Power BI à fournir).
 - Réseaux sociaux : ouverture de TikTok et Instagram après un mois de LinkedIn (proposition en discussion, pas encore décidée).
 - Photo nette de Mo pour la dernière scène.
+- Fichier officiel du logo Power BI (marque Microsoft) pour la scène 2.
 
 ## À vérifier
 

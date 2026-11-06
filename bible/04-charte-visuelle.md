@@ -49,12 +49,12 @@ Aucune courbe ni ligne de progression en bas de l'écran (décision de Mo, 6 nov
 | 1. Phrase seule | zone à 32 % du haut, 26 % de haut, centre à 45 %, 100–120 px |
 | 2. Objet + légende | objet 34 % du haut, 24 % de haut, ~48 % de large ; légende centrée à 61 %, 64–76 px, 2 à 5 mots |
 | 3. Carte / graphique / dashboard | 84 % de large, de 19 % à 54 % ; légende à 61 % |
-| 4. Message | avatar à gauche (17–27 %), bulle à 44 % du haut, 10 % de haut, gauche 29 %, droite 19 % ; carte de sondage dessous |
+| 4. Message | bulles flottantes sans téléphone ni écran de messagerie (référence : vidéo Instagram/WhatsApp, 7 novembre) ; bulles grises, ~55 % de large, centrées vers 50 % de hauteur ; avatar rond en bas à gauche de la dernière bulle ; points de saisie avant chaque message ; les anciennes bulles s'estompent ; carte de sondage possible dessous |
 | 5. Chiffre héros | 35 % du haut, 17 % de haut, 150–175 px ; légende à 61 % |
 
 Une phrase : 2 lignes maximum, toujours centrée. Une scène = une phrase au milieu (rarement deux).
 
-Privilégier un objet par scène (dashboard 3D, téléphone, tuile, cartes) plutôt que du texte seul : Mo trouvait la v1 trop « que du texte ». Taille exacte des légendes (≈42 px mesuré sur les références, 64–76 px dans la charte) : **à confirmer** sur la première planche.
+Une scène = un objet (ou un logo) + une seule ligne de légende dessous, à 61 %. Privilégier un objet par scène (dashboard 3D, téléphone, tuile, cartes) plutôt que du texte seul : Mo trouvait la v1 trop « que du texte ». Taille exacte des légendes (≈42 px mesuré sur les références, 64–76 px dans la charte) : **à confirmer** sur la première planche.
 
 ## Son
 
