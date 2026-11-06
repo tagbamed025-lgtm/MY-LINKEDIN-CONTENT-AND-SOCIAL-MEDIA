@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Charte Motion Moustakim LinkedIn</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;700;800&family=Instrument+Serif:ital@1&family=Geist+Mono&display=swap">
+<style>
+/* Concept : même document de studio que la charte PMI (colonne éditoriale, planches 9:16 en vitrine, signature en bas de scène), recoloré avec la charte validée de Mo. */
+:root{
+  --bleu:#2260F5; --perle:#F2F2F2; --blanc:#FFFFFF; --sable:#E9E2D4; --encre:#2B2622; --taupe:#6F6962; --entree:#A8A8AA; --corail:#D9482B; --ardoise:#14161C;
+  --bg:#F8F8F7; --fg:#2B2622; --muted:#6F6962; --line:#E3E0DA; --card:#FFFFFF; --tint:#EAF0FE; --link:#1F55DB;
+  --sans:'Inter Tight',system-ui,sans-serif; --serif:'Instrument Serif',Georgia,serif; --mono:'Geist Mono',ui-monospace,monospace;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:16px;line-height:1.55;padding-block:32px 72px;padding-inline:16px}
+.wrap{max-width:980px;margin:0 auto;display:flex;flex-direction:column;gap:72px}
+h1,h2,h3{font-weight:800;letter-spacing:-.03em;line-height:1.08;margin:0;text-wrap:balance}
+h1{font-size:clamp(38px,7vw,68px)} h2{font-size:clamp(28px,4.4vw,40px)} h3{font-size:19px;letter-spacing:-.01em}
+p{margin:0;max-width:66ch}
+em.s{font-family:var(--serif);font-style:italic;font-weight:400;font-size:1.12em;color:var(--bleu)}
+.mono{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+section{display:flex;flex-direction:column;gap:24px}
+.head{display:flex;flex-direction:column;gap:10px}
+.lead{font-size:18px;color:var(--muted)}
+.toc{display:flex;flex-wrap:wrap;gap:8px}
+.toc a{font-family:var(--mono);font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--link);text-decoration:none;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card)}
+.toc a:hover,.toc a:focus-visible{background:var(--tint);outline:2px solid var(--bleu);outline-offset:2px}
+.hero{display:flex;flex-direction:column;gap:20px;padding-bottom:8px}
+.curve{max-width:420px;width:100%;height:auto}
+.legend{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.pt{display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:.07em;text-transform:uppercase;padding:3px 9px;border-radius:99px;width:fit-content}
+.pt.v{background:var(--bleu);color:#fff}.pt.p{background:var(--sable);color:var(--encre)}.pt.n{background:var(--ardoise);color:#fff}
+.sw{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
+.chip{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card);display:flex;flex-direction:column}
+.chip .c{height:84px;display:flex;align-items:flex-end;padding:10px 12px;font-family:var(--mono);font-size:12px}
+.chip .t{padding:12px;display:flex;flex-direction:column;gap:2px;font-size:14px}
+.chip .t b{font-size:15px}.chip .t span{color:var(--muted)}
+.table{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+table{border-collapse:collapse;width:100%;min-width:640px;font-size:14.5px}
+th,td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--mono);font-size:11.5px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:400}
+tr:last-child td{border-bottom:0}
+td.k{font-weight:700}
+.bgs{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+.bg{border-radius:12px;aspect-ratio:4/5;padding:12px;display:flex;flex-direction:column;justify-content:space-between;font-size:13px;border:1px solid var(--line)}
+.bg b{font-size:14px}.bg .big{font-weight:800;font-size:22px;letter-spacing:-.03em;text-align:center;margin-block:auto}
+.type{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.card{border:1px solid var(--line);border-radius:14px;padding:18px;background:var(--card);display:flex;flex-direction:column;gap:8px;min-width:0}
+.card .sample{font-size:34px;line-height:1.05;letter-spacing:-.03em}
+.cap{font-size:13.5px;color:var(--muted)}.cap b{color:var(--fg)}
+.rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px}
+.rule{border-top:2px solid var(--bleu);padding-top:12px;display:flex;flex-direction:column;gap:4px}
+.rule b{font-size:17px}.rule span{color:var(--muted);font-size:14.5px}
+.frames{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:18px}
+.fw{display:flex;flex-direction:column;gap:10px}
+.frame{aspect-ratio:9/16;container-type:inline-size;position:relative;border-radius:14px;overflow:hidden;box-shadow:0 14px 34px -14px rgba(43,38,34,.45);font-family:var(--sans)}
+.frame .tag{position:absolute;top:10%;left:0;right:0;text-align:center;font-family:var(--mono);font-size:3.1cqw;letter-spacing:.1em;text-transform:uppercase}
+.frame .tx{position:absolute;left:9%;right:9%;top:42%;transform:translateY(-50%);text-align:center;line-height:1.04;letter-spacing:-.035em;font-size:10.5cqw}
+.frame .tx .sr{font-family:var(--serif);font-style:italic;font-weight:400}
+.frame .cv{position:absolute;left:8%;right:8%;top:76%;width:84%;height:auto;overflow:visible}
+.frame .bd{position:absolute;right:8%;top:77%;display:flex;align-items:center;gap:2.4cqw}
+.frame .bd i{width:9cqw;height:9cqw;border-radius:50%;display:flex;align-items:center;justify-content:center;font-style:normal;font-weight:800;font-size:4.2cqw}
+.frame .bd span{font-weight:800;font-size:3.8cqw;letter-spacing:-.02em}
+.safe{position:absolute;left:0;right:0;bottom:0;height:12%;background:repeating-linear-gradient(135deg,rgba(0,0,0,.05) 0 6px,transparent 6px 12px);border-top:1px dashed rgba(127,127,127,.5);font-family:var(--mono);font-size:2.6cqw;display:flex;align-items:center;justify-content:center;color:rgba(111,105,98,.95);letter-spacing:.06em;text-transform:uppercase}
+.fb{background:radial-gradient(ellipse at 50% 50%,rgba(255,255,255,.10),rgba(255,255,255,0) 60%),#2260F5;color:#fff}
+.fb .tag{color:rgba(255,255,255,.8)}.fb .bd i{background:#fff;color:#2260F5}.fb .bd span{color:#fff}
+.fb .safe{color:rgba(255,255,255,.75);border-color:rgba(255,255,255,.4);background:repeating-linear-gradient(135deg,rgba(255,255,255,.08) 0 6px,transparent 6px 12px)}
+.fp{background:radial-gradient(ellipse at 50% 50%,#F6F6F6 0%,#F2F2F2 55%,#E6E6E6 100%);color:#2B2622}
+.fp:before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(43,38,34,.16) .6px,transparent .8px);background-size:4px 4px;-webkit-mask-image:radial-gradient(ellipse at 50% 50%,transparent 45%,#000 100%);mask-image:radial-gradient(ellipse at 50% 50%,transparent 45%,#000 100%)}
+.fp .tag{color:#6F6962}.fp .bd i{background:#2260F5;color:#fff}.fp .bd span{color:#2B2622}
+.fl{background:radial-gradient(ellipse at 50% 108%,rgba(34,96,245,.16),rgba(34,96,245,0) 60%),#fff;color:#2B2622}
+.fl .tag{color:#6F6962}.fl .bd i{background:#2260F5;color:#fff}.fl .bd span{color:#2B2622}
+.fs{background:radial-gradient(ellipse at 50% 45%,#F1ECE0 0%,#E9E2D4 60%,#DDD4C2 100%);color:#2B2622}
+.fs .tag{color:#5E574F}.fs .bd i{background:#2260F5;color:#fff}.fs .bd span{color:#2B2622}
+.kpi{position:absolute;left:14%;right:14%;background:#fff;border-radius:5cqw;box-shadow:0 5cqw 9cqw -3cqw rgba(43,38,34,.22),0 .8cqw 1.6cqw rgba(43,38,34,.08);padding:3.2cqw 5cqw;text-align:left}
+.kpi small{display:block;font-size:3.6cqw;font-weight:500;color:#6F6962}
+.kpi b{display:block;font-size:12cqw;font-weight:800;letter-spacing:-.04em;line-height:1.05}
+.dash{position:absolute;left:8%;right:8%;top:17%;height:35%;background:#14161C;border-radius:5cqw;box-shadow:0 8cqw 12cqw -4cqw rgba(20,22,28,.45),0 1cqw 2cqw rgba(20,22,28,.25);padding:4cqw;color:#fff;overflow:hidden}
+.dash small{font-size:3.2cqw;font-weight:500;color:rgba(255,255,255,.7)}
+.dash b{display:block;font-size:11cqw;font-weight:800;letter-spacing:-.04em;line-height:1}
+.dash .row{display:flex;justify-content:space-between;align-items:flex-start}
+.dash svg{position:absolute;left:4cqw;right:4cqw;bottom:3cqw;width:calc(100% - 8cqw);height:38%}
+.pill{display:inline-block;margin-top:6cqw;background:#fff;color:#2260F5;font-weight:800;font-size:5cqw;padding:2.6cqw 6.5cqw;border-radius:99cqw;letter-spacing:-.01em}
+.big-badge{position:absolute;left:0;right:0;top:26%;display:flex;flex-direction:column;align-items:center;gap:3cqw}
+.big-badge i{width:30cqw;height:30cqw;border-radius:50%;background:#fff;border:1cqw solid rgba(255,255,255,.55);display:flex;align-items:center;justify-content:center;font-style:normal;font-weight:800;font-size:12cqw;color:#2260F5;box-shadow:0 5cqw 9cqw -3cqw rgba(20,22,28,.4)}
+.big-badge b{font-size:9cqw;letter-spacing:-.04em}
+.big-badge span{font-family:var(--mono);font-size:3cqw;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.85)}
+.series{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px}
+.flow{display:flex;flex-wrap:wrap;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.flow div{flex:1 1 150px;padding:14px;border-right:1px solid var(--line);display:flex;flex-direction:column;gap:3px;min-width:0}
+.flow div:last-child{border-right:0}.flow b{font-size:15px}.flow span{font-size:13.5px;color:var(--muted)}
+ul.t{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:5px;font-size:14.5px}
+.steps{display:flex;flex-direction:column;gap:10px;counter-reset:s}
+.steps div{display:grid;grid-template-columns:34px 1fr;gap:12px;align-items:start;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.steps div:before{counter-increment:s;content:counter(s);font-family:var(--mono);font-size:13px;width:28px;height:28px;border-radius:50%;background:var(--bleu);color:#fff;display:flex;align-items:center;justify-content:center}
+.steps span{color:var(--muted);font-size:14.5px;display:block}
+.note{border:1px solid var(--line);border-left:0;border-top:3px solid var(--bleu);border-radius:0 0 12px 12px;background:var(--card);padding:14px 16px;font-size:14.5px}
+
+.frames.big{grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.gf{background:#fff;border:1px solid var(--line)}
+.hz{position:absolute;left:0;right:0;display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:2.8cqw;letter-spacing:.06em;text-transform:uppercase;color:rgba(111,105,98,.95);background:repeating-linear-gradient(135deg,rgba(0,0,0,.05) 0 6px,transparent 6px 12px)}
+.hz.top{top:0;height:15%;border-bottom:1px dashed rgba(127,127,127,.5)}
+.hz.bot{bottom:0;height:12%;border-top:1px dashed rgba(127,127,127,.5)}
+.gz{position:absolute;left:var(--l,10%);right:var(--r,10%);top:var(--t);height:var(--h);border:1.5px dashed #2260F5;border-radius:2.4cqw;background:rgba(34,96,245,.05);display:flex;align-items:center;justify-content:center}
+.gz.o{border-color:#6F6962;background:rgba(111,105,98,.06)}
+.gz.c{border:0;background:none;border-top:1.5px solid rgba(34,96,245,.35);border-radius:0}
+.gz em{position:absolute;left:1.6cqw;top:1.4cqw;font:normal 2.9cqw/1.2 var(--mono);color:#1F55DB;letter-spacing:.02em;text-transform:none}
+.gz.o em{color:#6F6962}
+.gz em.below{top:100%;margin-top:1.2cqw;left:0}
+.gz em.up{top:auto;bottom:100%;margin-bottom:1.2cqw;left:0}
+.s1{text-align:center;font-size:9.2cqw;line-height:1.05;letter-spacing:-.035em;color:#2B2622}.s1 span{color:#6F6962}
+.s2{font-size:6.2cqw;font-weight:500;letter-spacing:-.03em;color:#2B2622;white-space:nowrap}
+.num{font-size:17cqw;font-weight:800;letter-spacing:-.04em;color:#D9482B;line-height:1}
+.ico{width:15cqw;height:15cqw;border-radius:4cqw;background:#2260F5;color:#fff;font-weight:800;font-size:6cqw;display:flex;align-items:center;justify-content:center;box-shadow:0 3cqw 6cqw -2cqw rgba(43,38,34,.35)}
+.dk{width:100%;height:100%;border-radius:2cqw;background:#14161C;color:#fff;padding:3cqw;display:flex;flex-direction:column;justify-content:flex-start;gap:1cqw}.dk small{font-size:3cqw;opacity:.7}.dk b{font-size:10cqw;line-height:1;letter-spacing:-.04em}
+.av{position:absolute;left:17%;top:46.5%;width:8cqw;height:8cqw;border-radius:50%;background:#E6EEFF;border:.7cqw solid #2260F5;display:flex;align-items:center;justify-content:center}.av i{font-style:normal;font-weight:800;font-size:3.6cqw;color:#2260F5}
+.gf .gz:has(.poll){background:none}.gf .gz.bub{background:#EAEAEA;border-radius:4cqw}
+.poll{width:100%;display:flex;flex-direction:column;gap:1.6cqw;padding:2.4cqw}.poll span{font-size:3.6cqw;padding:1.6cqw 2.4cqw;border-radius:1.6cqw;background:#fff;border:1px solid #E3E0DA}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="hero">
+  <span class="mono">Moustakim · Data, suivi-évaluation, communication · LinkedIn</span>
+  <h1>Charte motion design &amp; plan de contenu <em class="s">Moustakim</em></h1>
+  <p class="lead">Un seul style pour tes vidéos LinkedIn en 9:16, de 30 à 60 secondes. Il reprend à l'identique les fonds, les couleurs et les polices que tu as validés, la structure du document PMI que tu préfères, et ce que tes dossiers décident déjà. Ce qui est nouveau est marqué comme tel.</p>
+  <svg class="curve" viewBox="0 0 100 12" aria-hidden="true"><path d="M4 10 Q50 10 96 2" fill="none" stroke="#E3E0DA" stroke-width="1.6" stroke-linecap="round"/><path d="M4 10 Q50 10 96 2" fill="none" stroke="#2260F5" stroke-width="1.6" stroke-linecap="round" pathLength="100" stroke-dasharray="67 100"/><circle cx="65.6" cy="6.4" r="1.6" fill="#fff" stroke="#2260F5" stroke-width=".9"/></svg>
+  <div class="legend"><span class="pt v">Validé</span><span class="cap">vient de ta charte, de ton skill ou de tes décisions</span><span class="pt p">Proposition</span><span class="cap">nouveau, à valider par toi</span></div>
+  <nav class="toc" aria-label="Sections">
+    <a href="#idee">Direction</a><a href="#couleurs">Couleurs</a><a href="#fonds">Fonds</a><a href="#typo">Typo</a><a href="#regles">Règles</a><a href="#planches">Planches</a><a href="#rubriques">Rubriques</a><a href="#calendrier">Calendrier</a><a href="#script">Script type</a><a href="#son">Son et voix</a><a href="#suite">Suite</a><a href="#gabarits">Gabarits</a>
+  </nav>
+</header>
+
+<section id="idee">
+  <div class="head"><span class="mono">Direction</span><h2>Ce qui rend tes vidéos reconnaissables</h2></div>
+  <p>Ton style, c'est le calme : un seul texte au centre, des mots qui arrivent un par un, des cartes douces, jamais de noir. La différence avec ta v7 est ailleurs : les tailles. Ta planche validée met la phrase à environ deux fois la taille de celle de la v7. La charte les rétablit, et c'est la première cause du côté « fade ».</p>
+  <div class="series">
+    <div class="card"><span class="pt v">Validé</span><h3>Même ADN que ton style</h3><p class="cap">Smooth partout, un seul texte à la fois, mots clés seulement, jamais de noir pur, jamais de coupure sèche, validation par planche de vignettes avant rendu.</p></div>
+    <div class="card"><span class="pt p">Mis à jour</span><h3>Ton visage</h3><p class="cap">Pas de badge permanent. Ton visage apparaît à la dernière scène, en grand, et comme avatar dans les scènes de messages.</p></div>
+    <div class="card"><span class="pt p">Proposition</span><h3>Signature : la courbe de données</h3><p class="cap">Une fine courbe sous le texte avance avec la vidéo, un point par scène, comme la ligne de projet du PMI. Le dernier point tombe sur l'appel à l'action. Elle dit « data » sans un mot.</p></div>
+  </div>
+</section>
+
+<section id="couleurs">
+  <div class="head"><span class="mono">Palette</span><h2>Couleurs</h2></div>
+  <div class="sw">
+    <div class="chip"><div class="c" style="background:#F2F2F2;color:#2B2622">#F2F2F2</div><div class="t"><b>Gris perle</b><span>Fond principal, 70 % des scènes</span></div></div>
+    <div class="chip"><div class="c" style="background:#FFFFFF;color:#2B2622;box-shadow:inset 0 0 0 1px #E3E0DA">#FFFFFF</div><div class="t"><b>Blanc</b><span>Fond propre, listes, titres, livraison</span></div></div>
+    <div class="chip"><div class="c" style="background:#E9E2D4;color:#2B2622">#E9E2D4</div><div class="t"><b>Sable</b><span>Citations, histoires, temps calmes</span></div></div>
+    <div class="chip"><div class="c" style="background:#2260F5;color:#fff">#2260F5</div><div class="t"><b>Bleu Moustakim</b><span>Mot clé, fond d'accroche et d'appel à l'action</span></div></div>
+    <div class="chip"><div class="c" style="background:#2B2622;color:#fff">#2B2622</div><div class="t"><b>Encre café</b><span>Texte principal</span></div></div>
+    <div class="chip"><div class="c" style="background:#6F6962;color:#fff">#6F6962</div><div class="t"><b>Gris taupe</b><span>Mots légers, sources, légendes</span></div></div>
+    <div class="chip"><div class="c" style="background:#A8A8AA;color:#2B2622">#A8A8AA</div><div class="t"><b>Gris d'entrée</b><span>Couleur d'un mot qui vient d'arriver</span></div></div>
+    <div class="chip"><div class="c" style="background:#D9482B;color:#fff">#D9482B</div><div class="t"><b>Corail</b><span>Pertes et alertes uniquement (« −92 M »)</span></div></div>
+    <div class="chip"><div class="c" style="background:#14161C;color:#fff">#14161C</div><div class="t"><b>Ardoise</b><span>Cartes de dashboard seulement, jamais un fond de scène</span></div></div>
+  </div>
+  <div class="table"><table>
+    <thead><tr><th>Texte sur…</th><th>Autorisé</th><th>À éviter</th></tr></thead>
+    <tbody>
+      <tr><td class="k">Perle, blanc, sable</td><td>Encre, taupe, bleu ; corail pour les gros chiffres seulement</td><td>Gris d'entrée en texte fixe (trop pâle, réservé à l'arrivée d'un mot)</td></tr>
+      <tr><td class="k">Bleu #2260F5</td><td>Blanc</td><td>Corail, taupe, encre</td></tr>
+      <tr><td class="k">Carte ardoise</td><td>Blanc, bleu pour les gains, corail pour les pertes</td><td>Taupe</td></tr>
+    </tbody></table></div>
+  <p class="cap">Aucun noir pur, aucun fond noir, aucun fond lavande taché. Je n'ajoute aucune couleur à ta palette.</p>
+</section>
+
+<section id="fonds">
+  <div class="head"><span class="mono">Fonds</span><h2>Cinq fonds, pas un de plus</h2></div>
+  <div class="bgs">
+    <div class="bg" style="background:radial-gradient(ellipse at 50% 50%,#F6F6F6,#F2F2F2 55%,#E6E6E6);color:#2B2622"><b>1 · Gris perle</b><div class="big">Concept</div><span>Principal. Voile de petits points sur les bords.</span></div>
+    <div class="bg" style="background:#fff;color:#2B2622"><b>2 · Blanc pur</b><div class="big">Un message</div><span>Listes, titres, livraison propre.</span></div>
+    <div class="bg" style="background:radial-gradient(ellipse at 50% 108%,rgba(34,96,245,.18),rgba(34,96,245,0) 60%),#fff;color:#2B2622"><b>3 · Blanc lumière</b><div class="big">−92 M</div><span>Lueur bleue du bas : chiffres, dashboards.</span></div>
+    <div class="bg" style="background:#2260F5;color:#fff;border-color:#2260F5"><b>4 · Bleu</b><div class="big">Accroche</div><span>Hook, moment fort, appel à l'action. 1 scène sur 8 au plus.</span></div>
+    <div class="bg" style="background:radial-gradient(ellipse at 50% 45%,#F1ECE0,#E9E2D4 60%,#DDD4C2);color:#2B2622"><b>5 · Sable</b><div class="big" style="font-family:var(--serif);font-style:italic;font-weight:400;font-size:26px">« Citation »</div><span>Citations, histoires, temps calmes.</span></div>
+  </div>
+  <p class="cap">Les mêmes fonds en 16:9 et en 9:16. Une scène, un fond. Alterner pour relancer l'attention, jamais trois scènes de suite sur le même.</p>
+</section>
+
+<section id="typo">
+  <div class="head"><span class="mono">Typographie</span><h2>Trois polices, trois rôles</h2></div>
+  <div class="type">
+    <div class="card"><span class="mono">Phrases · Inter Tight</span><div class="sample" style="font-weight:800">Ton expertise <span style="font-weight:400;color:var(--taupe)">reste ta force.</span></div><p class="cap">400 mots légers · 700 mot clé · 800 titres et chiffres. Interlettrage −3 %.</p></div>
+    <div class="card"><span class="mono">Mot émotionnel · Instrument Serif italique</span><div class="sample" style="font-family:var(--serif);font-style:italic;font-weight:400;color:var(--bleu);font-size:48px">mouvements</div><p class="cap">Un seul mot par scène, ×1,12 à ×1,8 selon l'effet, bleu à la fin de l'entrée.</p></div>
+    <div class="card"><span class="mono">Repères · Geist Mono</span><div class="sample" style="font-family:var(--mono);font-size:20px;letter-spacing:.08em">03 / 08 · SOURCE : WEF 2025</div><p class="cap">Numéros, sources, @compte. Majuscules, espacement 8 %.</p></div>
+  </div>
+  <div class="table"><table>
+    <thead><tr><th>Format 9:16 (1080×1920)</th><th>Taille</th><th>D'où ça vient</th></tr></thead>
+    <tbody>
+      <tr><td class="k">Phrase courante</td><td>100 à 120 px</td><td>Ta planche verticale validée : 58 px sur un cadre de 506 px de large, soit environ 124 px en 1080</td></tr>
+      <tr><td class="k">Mot héros en serif</td><td>jusqu'à 175 px</td><td>Même planche : 82 px sur 506 px</td></tr>
+      <tr><td class="k">Texte secondaire, source</td><td>40 à 48 px, 24 px</td><td>Ton skill</td></tr>
+    </tbody></table></div>
+  <p class="cap"><b>Écart à trancher :</b> ton skill écrit « 64 à 76 px » en vertical, ta planche validée dit environ 120 px. J'ai suivi la planche, parce que c'est ce que tu as approuvé en la voyant. Texte toujours lisible à 40 % de taille (aperçu téléphone).</p>
+</section>
+
+<section id="regles">
+  <div class="head"><span class="mono">Règles</span><h2>Huit règles non négociables</h2></div>
+  <div class="rules">
+    <div class="rule"><b>1. Un seul texte au centre</b><span>Jamais deux textes superposés ni en haut et en bas. Une carte est une image, le texte reste unique. Une liste montre un élément à la fois.</span></div>
+    <div class="rule"><b>2. Huit mots maximum par scène</b><span>Mots clés seulement. La voix porte le reste.</span></div>
+    <div class="rule"><b>3. Flux de mots</b><span>Un mot toutes les 0,25 à 0,35 s, calé sur la voix. Il arrive en gris d'entrée #A8A8AA, passe à l'encre en 0,5 s. Le dernier mot arrivé est donc le plus léger. Le mot clé passe en gras ou en bleu.</span></div>
+    <div class="rule"><b>4. Tout est smooth</b><span>easeOutQuint. Mot : 0,7 s. Carte : 0,85 s, zoom 0,62 à 1, flou 20 à 0. Sorties 0,4 à 0,6 s : fondu, flou, légère montée. Jamais de coupure sèche.</span></div>
+    <div class="rule"><b>5. Zone sûre 9:16</b><span>Texte entre 15 % et 85 % de la hauteur, rien dans les 12 % du bas (interface LinkedIn). Contenu centré, carte vers 35 %, texte vers 70 %.</span></div>
+    <div class="rule"><b>6. Jamais d'arrêt plein</b><span>Pas de plan fixe de plus de 1,2 s : le texte arrive, la carte flotte, ou la caméra pousse de 1 % par seconde. Chaque texte clé reste lisible environ 1,5 s après son entrée, l'appel à l'action 2,5 s.</span></div>
+    <div class="rule"><b>7. Pas de décor : une idée, un visuel</b><span>Un chiffre qui porte l'histoire monte en 1 s, jamais d'un coup. Pas d'élément qui ne sert pas la scène.</span></div>
+    <div class="rule"><b>8. Valider avant de rendre</b><span>Planche de vignettes (2 à 4 images par seconde), vérification des chevauchements, puis rendu complet. Fichier versionné « …v3 ». Sous-titres toujours présents.</span></div>
+  </div>
+</section>
+
+<section id="planches">
+  <div class="head"><span class="mono">Planches</span><h2>À quoi ressemble une vidéo</h2></div>
+  <p>Exemple : la v8 de « D'ici 2030 », sans aucun métier cité. Les zones hachurées en bas sont l'interface du réseau, qui reste vide. Le « M » de la dernière scène sera remplacé par ta photo. Les chiffres −92 M et +170 M viennent du rapport Future of Jobs 2025 du Forum économique mondial, source à afficher en Geist Mono.</p>
+  <div class="frames">
+    <div class="fw"><div class="frame fb"><div class="tag">IA · Emploi · 2030</div><div class="tx"><span class="sr" style="font-size:1.3em">D'ici 2030,</span><br><b>92 millions<br>d'emplois</b><br><span style="font-weight:400;opacity:.85">vont disparaître.</span></div><svg class="cv" viewBox="0 0 100 12"><path d="M4 10 Q50 10 96 2" fill="none" stroke="rgba(255,255,255,.3)" stroke-width="1.4" stroke-linecap="round"/><path d="M4 10 Q50 10 96 2" fill="none" stroke="#fff" stroke-width="1.4" stroke-linecap="round" pathLength="100" stroke-dasharray="15 100"/><circle cx="17.8" cy="9.8" r="1.5" fill="#fff"/></svg><div class="safe">zone réseau</div></div><p class="cap"><b>Accroche · bleu</b> · 0–3 s. Serif sur « D'ici 2030 », chiffre en gras.</p></div>
+    <div class="fw"><div class="frame fl"><div class="tag">Source · WEF 2025</div><div class="kpi" style="top:15%"><small>Emplois supprimés</small><b style="color:#D9482B">−92 M</b></div><div class="kpi" style="top:31%"><small>Emplois créés</small><b style="color:#2260F5">+170 M</b></div><div class="tx" style="top:58%"><span class="sr" style="font-size:.92em">le même rapport le dit</span></div><svg class="cv" viewBox="0 0 100 12"><path d="M4 10 Q50 10 96 2" fill="none" stroke="rgba(34,96,245,.18)" stroke-width="1.4" stroke-linecap="round"/><path d="M4 10 Q50 10 96 2" fill="none" stroke="#2260F5" stroke-width="1.4" stroke-linecap="round" pathLength="100" stroke-dasharray="33 100"/><circle cx="34.4" cy="9.1" r="1.5" fill="#fff" stroke="#2260F5" stroke-width=".8"/></svg><div class="safe">zone réseau</div></div><p class="cap"><b>Chiffre · blanc lumière</b> · deux cartes douces, les nombres défilent en 1,2 s.</p></div>
+    <div class="fw"><div class="frame fp"><div class="tag">Moustakim</div><div class="tx"><b>Ton expertise</b><br><span style="font-weight:400;color:#6F6962">reste ta force.</span></div><svg class="cv" viewBox="0 0 100 12"><path d="M4 10 Q50 10 96 2" fill="none" stroke="rgba(34,96,245,.18)" stroke-width="1.4" stroke-linecap="round"/><path d="M4 10 Q50 10 96 2" fill="none" stroke="#2260F5" stroke-width="1.4" stroke-linecap="round" pathLength="100" stroke-dasharray="50 100"/><circle cx="50" cy="8" r="1.5" fill="#fff" stroke="#2260F5" stroke-width=".8"/></svg><div class="safe">zone réseau</div></div><p class="cap"><b>Idée · gris perle</b> · deux graisses, mot clé en gras, reste léger en taupe.</p></div>
+    <div class="fw"><div class="frame fp"><div class="tag">Preuve</div><div class="dash"><div class="row"><div><small>Projets actifs</small><b>64</b></div><small style="color:#7FA1FF">▲ 6 %</small></div><svg viewBox="0 0 100 30" preserveAspectRatio="none"><path d="M0 24 L14 20 L28 22 L42 14 L56 16 L70 8 L84 10 L100 3" fill="none" stroke="#2260F5" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/><path d="M0 12 L20 14 L40 18 L60 22 L80 24 L100 27" fill="none" stroke="#D9482B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></div><div class="tx" style="top:61%;font-size:9.5cqw"><b>Un dashboard,</b><br><span style="color:#2260F5;font-weight:800">une décision.</span></div><svg class="cv" viewBox="0 0 100 12" ><path d="M4 10 Q50 10 96 2" fill="none" stroke="rgba(34,96,245,.18)" stroke-width="1.4" stroke-linecap="round"/><path d="M4 10 Q50 10 96 2" fill="none" stroke="#2260F5" stroke-width="1.4" stroke-linecap="round" pathLength="100" stroke-dasharray="67 100"/><circle cx="65.6" cy="6.4" r="1.5" fill="#fff" stroke="#2260F5" stroke-width=".8"/></svg><div class="safe">zone réseau</div></div><p class="cap"><b>Preuve · gris perle</b> · carte ardoise au-dessus, une seule phrase dessous. Données fictives.</p></div>
+    <div class="fw"><div class="frame fs"><div class="tag">Moustakim</div><div class="tx" style="top:40%"><span class="sr" style="font-size:1.28em;line-height:1">« Ton expertise<br><span style="color:#2260F5">reste ta force. »</span></span></div><svg class="cv" viewBox="0 0 100 12"><path d="M4 10 Q50 10 96 2" fill="none" stroke="rgba(34,96,245,.2)" stroke-width="1.4" stroke-linecap="round"/><path d="M4 10 Q50 10 96 2" fill="none" stroke="#2260F5" stroke-width="1.4" stroke-linecap="round" pathLength="100" stroke-dasharray="83 100"/><circle cx="80.4" cy="4.5" r="1.5" fill="#fff" stroke="#2260F5" stroke-width=".8"/></svg><div class="safe">zone réseau</div></div><p class="cap"><b>Citation · sable</b> · serif italique sur deux lignes, deux couleurs.</p></div>
+    <div class="fw"><div class="frame fb"><div class="big-badge"><i>M</i><b>Moustakim</b><span>Data · Suivi-évaluation · Communication</span></div><div class="tx" style="top:66%"><span class="pill">Abonne-toi</span></div><svg class="cv" viewBox="0 0 100 12" ><path d="M4 10 Q50 10 96 2" fill="none" stroke="rgba(255,255,255,.3)" stroke-width="1.4" stroke-linecap="round"/><path d="M4 10 Q50 10 96 2" fill="none" stroke="#fff" stroke-width="1.4" stroke-linecap="round" pathLength="100" stroke-dasharray="100 100"/><circle cx="96" cy="2" r="2.4" fill="#fff"/></svg><div class="safe">zone réseau</div></div><p class="cap"><b>Appel à l'action · bleu</b> · badge agrandi, bouton pilule, dernier point de la courbe.</p></div>
+  </div>
+</section>
+
+<section id="rubriques">
+  <div class="head"><span class="mono">Thématiques</span><h2>Cinq rubriques récurrentes</h2></div>
+  <p>Là où tu veux te démarquer : pas de « comment faire un rapport », mais la data racontée avec de la communication et du motion. Chaque rubrique a un format fixe, pour que le spectateur sache à la première seconde pourquoi il regarde. Tu gardes une idée par vidéo et un chiffre ou un exemple concret.</p>
+  <div class="series">
+    <div class="card"><span class="pt v">Validé</span><h3>B.A.-BA</h3><p class="cap">Un terme en 45 secondes : donnée ou information, indicateur, Power Query, mesure DAX. Tu alternes 9:16 face caméra et 16:9 dashboard, comme décidé.</p></div>
+    <div class="card"><span class="pt v">Validé</span><h3>Le projet agricole</h3><p class="cap">Le fil rouge fictif : cinq coopératives de riz dans trois régions, un concept par épisode. Données fictives uniquement.</p></div>
+    <div class="card"><span class="pt v">Validé</span><h3>Avant / aujourd'hui</h3><p class="cap">« Mon premier dashboard vs aujourd'hui », ton script de 30 secondes existe déjà. Question de fin : quelle décision ton dernier dashboard aide à prendre ?</p></div>
+    <div class="card"><span class="pt v">Validé</span><h3>L'IA dans mon métier</h3><p class="cap">Ce que l'IA fait vraiment dans ton travail, avec ce qu'elle rate et un temps gagné précis. Thème secondaire, qui monte progressivement.</p></div>
+    <div class="card"><span class="pt p">Proposition</span><h3>Le geste en 60 secondes</h3><p class="cap">Un seul geste Power BI, ta capture d'écran habillée en motion (zoom, curseur, bulles) et ta voix. C'est le seul format « tutoriel » que je garderais, court et filmé sur un cas fictif.</p></div>
+  </div>
+</section>
+
+<section id="calendrier">
+  <div class="head"><span class="mono">Du 9 novembre au 4 décembre</span><h2>Quatre semaines, huit vidéos</h2></div>
+  <p>Deux vidéos par semaine, mardi et jeudi, parce que deux vidéos bien construites valent mieux que cinq précipitées. La première rejoint ton lancement du mardi.</p>
+  <div class="table"><table>
+    <thead><tr><th>Semaine</th><th>Mardi</th><th>Jeudi</th></tr></thead>
+    <tbody>
+      <tr><td class="k">S1 · 9–13 nov.</td><td>« D'ici 2030 » v8, 40 s : ton identité en une vidéo</td><td>Avant / aujourd'hui : mon premier dashboard</td></tr>
+      <tr><td class="k">S2 · 16–20 nov.</td><td>B.A.-BA : une donnée n'est pas une information</td><td>Projet agricole, épisode 1 : cinq coopératives, une question</td></tr>
+      <tr><td class="k">S3 · 23–27 nov.</td><td>Le geste en 60 s : un filtre qui sert vraiment</td><td>L'IA dans mon métier : ce qu'elle a fait, ce qu'elle a raté</td></tr>
+      <tr><td class="k">S4 · 30 nov.–4 déc.</td><td>B.A.-BA : un indicateur, c'est quoi ?</td><td>Projet agricole, épisode 2 : du cadre logique aux indicateurs</td></tr>
+    </tbody></table></div>
+  <p class="cap">Chaque vidéo suppose ta voix enregistrée avant le montage. Si tu n'en tiens qu'une par semaine, garde les mardis. Les sujets sont une proposition, rien n'est écrit avant ton accord.</p>
+</section>
+
+<section id="script">
+  <div class="head"><span class="mono">Script type</span><h2>Une vidéo de 40 secondes, scène par scène</h2></div>
+  <p>Environ 95 mots de voix off (deux mots et demi par seconde). Chaque scène a un message, un fond et un point sur la courbe. L'ordre vient de ton skill : accroche, problème, solution, résultat, appel à l'action.</p>
+  <div class="flow">
+    <div><span class="mono">0–3 s</span><b>Accroche</b><span>Chiffre ou phrase choc, mot héros en serif. Bleu ou perle.</span></div>
+    <div><span class="mono">3–10 s</span><b>Problème</b><span>Ce qui bloque, dit directement, sans désigner personne. Perle.</span></div>
+    <div><span class="mono">10–25 s</span><b>Solution</b><span>Trois points maximum, un par scène. Blanc, perle, blanc lumière.</span></div>
+    <div><span class="mono">25–34 s</span><b>Résultat</b><span>Carte de dashboard et chiffre qui monte en 1 s. Perle.</span></div>
+    <div><span class="mono">34–40 s</span><b>Appel à l'action</b><span>Une phrase à garder, badge, « Abonne-toi ». Bleu.</span></div>
+  </div>
+  <p class="cap">Chaque script est livré en trois formes : texte parlé chronométré, texte à l'écran, notes d'animation avec le fond de chaque scène. Une information manquante est marquée [à compléter], jamais inventée.</p>
+</section>
+
+<section id="son">
+  <div class="head"><span class="mono">Son et voix</span><h2>Ce qui est déjà décidé</h2></div>
+  <div class="table"><table>
+    <thead><tr><th>Élément</th><th>Règle</th></tr></thead>
+    <tbody>
+      <tr><td class="k">Voix</td><td>Tu enregistres toi-même, deux prises. Je garde une seule version de chaque phrase, je coupe les accrocs et les silences, puis je nettoie à −16 LUFS. Le clone ElevenLabs reste en dépannage, tant que ton abonnement n'est pas actif.</td></tr>
+      <tr><td class="k">Musique</td><td>Originale, sans droits, 88 battements par minute, environ 24 dB sous la voix et baissée quand tu parles. Rien de plus qu'une nappe discrète.</td></tr>
+      <tr><td class="k">Effets</td><td>Pris dans ta bibliothèque, versions « smooth » et « premium ». Whoosh très doux pour le texte, pop doux pour les chiffres et les pastilles. Jamais un effet par mot, 0,5 s au plus pour un pop, 1,6 s pour un whoosh, jamais devant la voix.</td></tr>
+      <tr><td class="k">Mixage final</td><td>−15 LUFS, sortie AAC 192 kbps, durée du fichier égale à celle de la voix.</td></tr>
+    </tbody></table></div>
+</section>
+
+<section id="garde">
+  <div class="head"><span class="mono">Garde-fous</span><h2>Ce qu'on ne fait pas</h2></div>
+  <div class="note"><ul class="t">
+    <li>Données fictives ou publiques seulement, jamais de données PNUD ou RSF, ni de capture d'un vrai dashboard de bailleur.</li>
+    <li>Avant toute offre payante (formation, accompagnement) : vérifier l'autorisation liée à ton statut UNV.</li>
+    <li>Un chiffre annoncé sur toi, comme « de 2 semaines à 1 mois à 1 journée », doit être vrai pour un vrai dashboard. Sinon, une fourchette honnête.</li>
+    <li>Tester un outil d'IA avant d'annoncer ce qu'il sait faire. L'affirmation sur Anthropic dans ton script « emplois et IA » attend toujours une source.</li>
+    <li>Citer la source des chiffres à l'écran, et la légender si la vidéo est animée par l'IA.</li>
+  </ul></div>
+</section>
+
+<section id="suite">
+  <div class="head"><span class="mono">Suite</span><h2>Ton ordre de travail, tel que tu le décris</h2></div>
+  <div class="steps">
+    <div><b>Valider cette charte<span>Surtout trois points : les tailles de texte, la courbe de données, et le calendrier proposé.</span></b></div>
+    <div><b>Le script<span>Je l'écris en tableau (temps, voix, texte, fond), sans citer de métiers. Tu relis.</span></b></div>
+    <div><b>La voix off<span>Tu enregistres deux prises. Je nettoie et je recale tout sur ta voix.</span></b></div>
+    <div><b>Le storyboard<span>Planche de 7 à 9 images avec cette charte. Tu valides avant toute animation.</span></b></div>
+    <div><b>La vidéo<span>Rendu muet, puis voix, musique et effets. Fichier versionné. Tu me donnes tes retours.</span></b></div>
+  </div>
+  <p class="cap">À me fournir : une photo nette de toi (fond simple, de face) pour le badge, et deux captures de dashboards fictifs pour les scènes de preuve.</p>
+</section>
+
+<section id="gabarits">
+  <div class="head"><span class="mono">Gabarits</span><h2>Où va chaque élément à l'écran</h2></div>
+  <p>Cette section s'ajoute à la charte sans rien changer d'autre. Elle délimite, pour chaque type de scène, la zone du texte, de l'objet, du graphique et du message. Les positions viennent de la mesure de tes 7 vidéos de référence, pas d'une estimation.</p>
+
+  <div class="table"><table>
+    <thead><tr><th>Ce que j'ai mesuré (808 images, 4 par seconde)</th><th>Médiane</th><th>Fourchette courante</th><th>Sur 1080×1920</th></tr></thead>
+    <tbody>
+      <tr><td class="k">Légende sous l'objet : centre vertical</td><td>61 %</td><td>54 à 68 %</td><td>environ 1170 px depuis le haut</td></tr>
+      <tr><td class="k">Légende : taille et longueur</td><td>1 ligne, 22 % de la largeur</td><td>12 à 34 %, soit 2 à 3 mots</td><td>texte d'environ 42 px</td></tr>
+      <tr><td class="k">Objet (logo, icône, produit, petite carte) : centre</td><td>47 %</td><td>44 à 48 %</td><td>environ 900 px</td></tr>
+      <tr><td class="k">Objet : taille</td><td>17 % de haut, 49 % de large</td><td>5 à 36 % de haut, 17 à 67 % de large</td><td>haut de l'objet vers 730 px, bas vers 1055 px</td></tr>
+      <tr><td class="k">Bulle de message</td><td>centre 50 %, 53 % de large</td><td>40 à 63 % de large, 6 à 10 % de haut</td><td>bord gauche vers 313 px, bord droit vers 875 px</td></tr>
+      <tr><td class="k">Écrans pleins (dégradé, noir)</td><td>6 % des images</td><td>accroche et moments forts seulement</td><td>texte blanc au centre</td></tr>
+    </tbody></table></div>
+
+  <div class="series">
+    <div class="card"><h3>Ce que ça nous apprend</h3><ul class="t"><li>Les références sont très vides : un objet, une courte légende dessous, et le reste en blanc. C'est ce qui les rend premium.</li><li>La légende est toujours au même endroit, environ 6 % de hauteur sous le bas de l'objet. Rien ne saute d'une scène à l'autre.</li><li>Dans les messages, l'avatar de la personne est un petit rond à gauche de la bulle, et un sondage s'ouvre sous la bulle.</li></ul></div>
+    <div class="card"><h3>Ce que je retiens pour toi</h3><ul class="t"><li>Légende : 64 à 76 px, comme dans ton reel PMI, au lieu des 42 px mesurés, pour rester lisible sur LinkedIn.</li><li>Légende à 61 %, comme tes références. Ton skill disait 70 %.</li><li>Pas de noir : les écrans pleins se font en bleu ou en perle.</li><li>Ta petite tête : avatar dans les messages et grande à la dernière scène. En option, un petit rond de 9 % de large en bas à gauche, à 82 %, sans le nom.</li></ul></div>
+  </div>
+
+  <div class="frames big">
+    <div class="fw"><div class="frame gf">
+      <div class="hz top">0–15 % · rien</div>
+      <div class="gz" style="--t:32%;--h:26%"><em class="up">phrase · 2 lignes · 100–120 px · centre 45 %</em><div class="s1"><b>Ton expertise</b><br><span>reste ta force.</span></div></div>
+      <div class="gz c" style="--t:74%;--h:5%;--l:8%;--r:8%"><em>courbe · 76 %</em></div>
+      <div class="hz bot">88–100 % · réseau</div>
+    </div><p class="cap"><b>1 · Phrase seule</b> · accroche, citation, idée. Huit mots maximum. Marges de 10 % de chaque côté, centrée horizontalement.</p></div>
+
+    <div class="fw"><div class="frame gf">
+      <div class="hz top">0–15 % · rien</div>
+      <div class="gz o" style="--t:34%;--h:24%;--l:26%;--r:26%"><em>objet · centre 47 %</em><div class="ico">BI</div></div>
+      <div class="gz" style="--t:60%;--h:5.5%;--l:20%;--r:20%"><em class="below">légende · centre 61 % · 64–76 px · 2 à 5 mots</em><div class="s2">Un indicateur</div></div>
+      <div class="gz c" style="--t:74%;--h:5%;--l:8%;--r:8%"></div>
+      <div class="hz bot">88–100 % · réseau</div>
+    </div><p class="cap"><b>2 · Objet + légende</b> · le gabarit de tes références. Objet de 40 à 55 % de la largeur, légende sur une seule ligne.</p></div>
+
+    <div class="fw"><div class="frame gf">
+      <div class="hz top">0–15 % · rien</div>
+      <div class="gz o" style="--t:19%;--h:35%;--l:8%;--r:8%"><em class="up">carte · 84 % de large · de 19 % à 54 %</em><div class="dk"><small>Projets actifs</small><b>64</b></div></div>
+      <div class="gz" style="--t:60%;--h:5.5%;--l:14%;--r:14%"><em class="below">légende · centre 61 %</em><div class="s2" style="font-size:5.2cqw">Un dashboard, une décision.</div></div>
+      <div class="gz c" style="--t:74%;--h:5%;--l:8%;--r:8%"></div>
+      <div class="hz bot">88–100 % · réseau</div>
+    </div><p class="cap"><b>3 · Carte, graphique, dashboard</b> · la carte monte, la légende garde sa place. Motion design et captures d'écran habillées suivent ce gabarit.</p></div>
+
+    <div class="fw"><div class="frame gf">
+      <div class="hz top">0–15 % · rien</div>
+      <div class="av"><i>M</i></div>
+      <div class="gz bub" style="--t:44%;--h:10%;--l:29%;--r:19%"><em class="up">bulle · centre 50 % · 53 % de large</em><div class="s2" style="font-size:4.6cqw">Et toi, tu suis quoi ?</div></div>
+      <div class="gz o" style="--t:57%;--h:13%;--l:29%;--r:19%"><em class="below">sondage sous la bulle</em><div class="poll"><span>Option A</span><span>Option B</span></div></div>
+      <div class="gz c" style="--t:76%;--h:4%;--l:8%;--r:8%"></div>
+      <div class="hz bot">88–100 % · réseau</div>
+    </div><p class="cap"><b>4 · Message</b> · ta petite tête sert d'avatar, à gauche de la bulle (18 à 27 % de la largeur). Un message à la fois, une ou deux lignes.</p></div>
+
+    <div class="fw"><div class="frame gf">
+      <div class="hz top">0–15 % · rien</div>
+      <div class="gz" style="--t:35%;--h:17%"><em>chiffre · 150–175 px · centre 44 %</em><div class="num">−92 M</div></div>
+      <div class="gz" style="--t:58%;--h:5.5%;--l:18%;--r:18%"><em class="below">légende · centre 61 %</em><div class="s2">emplois supprimés</div></div>
+      <div class="gz c" style="--t:74%;--h:5%;--l:8%;--r:8%"></div>
+      <div class="hz bot">88–100 % · réseau</div>
+    </div><p class="cap"><b>5 · Chiffre héros</b> · un seul nombre, il défile en 1 s, la légende dit ce qu'il mesure. Corail pour une perte, bleu pour un gain.</p></div>
+
+    <div class="fw"><div class="card" style="height:100%"><span class="mono">Valables pour tous</span><ul class="t"><li>Zone utile entre 15 % et 85 % de la hauteur, rien dans les 12 % du bas.</li><li>Un seul élément qui bouge à la fois.</li><li>La légende reste à 61 % d'une scène à l'autre, la courbe à 76 %.</li><li>Le flux de mots se recentre en douceur quand une nouvelle ligne commence.</li><li>Fonds : perle, blanc, blanc lumière, bleu, sable. Jamais de noir.</li></ul></div></div>
+  </div>
+</section>
+
+</div>
+</body>
+</html>
