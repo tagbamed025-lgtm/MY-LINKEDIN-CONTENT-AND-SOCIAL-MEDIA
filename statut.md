@@ -20,7 +20,7 @@ Idée → Script → Voix → Planche validée → Rendu → Revue → Publiée
 ## Ce qui attend une décision de Mo
 
 - Phrase de la user story de la vidéo 001 (proposition : « En tant que DG, je veux savoir quelles zones du projet agricole sont en retard, pour décider où envoyer l'équipe de terrain avant la fin du mois. »).
-- Réseaux sociaux : ouverture de TikTok et Instagram après un mois de LinkedIn (proposition en discussion, voir `bible/99-journal-decisions.md`).
+- Réseaux sociaux : ouverture de TikTok et Instagram après un mois de LinkedIn (proposition en discussion, pas encore décidée).
 - Photo nette de Mo pour la dernière scène.
 
 ## À vérifier
