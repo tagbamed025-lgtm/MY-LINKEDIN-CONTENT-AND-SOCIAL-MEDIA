@@ -9,7 +9,7 @@
 - Première cible : chefs et gestionnaires de projet des organisations internationales et autres.
 - Trois familles de contenu : données, IA appliquée, vidéos IA générative. Plus des posts image / carrousels.
 - Une bible hébergée sur GitHub, avec des instructions pour que toute nouvelle discussion du projet y accède.
-- Plus de badge permanent « M Moustakim » : visage de Mo en dernière scène et en avatar dans les scènes de messages.
+- ~~Plus de badge permanent « M Moustakim »~~ : remplacé le soir du 6 novembre par un bandeau permanent mini-avatar + « Moustakim » en haut à gauche (voir plus bas).
 
 **Retours de Mo sur la planche v1 (6 novembre, après-midi) — Validé**
 - Plus de courbe ni de ligne de progression en bas : supprimée de la charte.
@@ -25,6 +25,15 @@
 - « Qu'est-ce qu'il veut décider ? » : une seule ligne, fondu, puis le mot « décider » avec une petite icône « ? ».
 - La scène « Montrer / Décider » est bonne.
 - À suivre : comment la référence place les textes (légende sous l'objet).
+
+**Retours de Mo sur la v3 et la v4 (6 novembre, soir) — Validé**
+- Tout est centré verticalement (groupe objet + légende), avec la même distance en haut et en bas. Légende plus proche de l'objet.
+- Mo veut son logo et son nom pendant toute la vidéo : **remplace** la décision « plus de badge permanent ». Position finale : mini-avatar + « Moustakim », en haut à gauche (Claude le recommande pour ne pas gêner le contenu).
+- Voix enregistrée par Mo (clonée). Personnages 3D générés par Mo : avatar, DG, cheffe de projet, agent de terrain, bailleuse, stagiaire, plus trois personnages d'autres origines.
+- Musique originale unique, signature de toutes les vidéos.
+- Ouverture : avatar de Mo à côté de sa réponse « Bonjour DG ». Message du DG plus flou : « petit dashboard sur le projet agricole ».
+- Fin : « Pas de question, » seul ; ordinateur avec dashboard fictif sur « pas de dashboard » ; puis la question finale avec le profil. Titre « Data · Suivi-évaluation · Communication » à la place de « l'accro à l'IA » ; nom complet dans la dernière scène.
+- **v5 validée par Mo (21 h 52) : prête à publier ce soir.** Prochain épisode annoncé dans le post : la donnée (Série A #2).
 
 **Propositions de Claude, non encore validées**
 - Série « Avant d'ouvrir Power BI », 5 épisodes.

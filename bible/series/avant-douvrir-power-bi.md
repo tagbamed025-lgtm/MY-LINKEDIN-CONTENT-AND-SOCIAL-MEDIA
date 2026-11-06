@@ -8,8 +8,8 @@ Thèse de la série : un dashboard raté commence avant l'outil.
 
 | # | Étape | Question centrale | Statut |
 |---|---|---|---|
-| 1 | Le besoin métier / la user story | Que veut décider ton DG ? | Validé, en production (6 nov) |
-| 2 | La donnée | Quelles données faut-il vraiment ? | Proposition |
+| 1 | Le besoin métier / la user story | Que veut décider ton DG ? | Validé (v5), publication le 6 nov |
+| 2 | La donnée | Quelles données faut-il vraiment ? | Annoncé dans le post du #1 |
 | 3 | L'indicateur | Un indicateur, c'est quoi ? On n'améliore que ce qu'on mesure | Proposition |
 | 4 | Le message | Quelle décision ce tableau doit-il aider à prendre ? | Proposition |
 | 5 | Le visuel | Seulement maintenant, on ouvre l'outil | Proposition |

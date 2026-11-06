@@ -1,9 +1,9 @@
 # 001 — Ton DG te demande un dashboard
 
-Série A « Avant d'ouvrir Power BI », épisode 1. Format 9:16, 40 s visées. Publication visée : vendredi 6 novembre 2026.
+Série A « Avant d'ouvrir Power BI », épisode 1. Format 9:16, 43 s. Publication : vendredi 6 novembre 2026.
 
-Statut : script v3 écrit, planche v3 à valider.
+Statut : **v5 validée par Mo (6 novembre, 21 h 52)**. Prête à publier.
 
-Fichiers : `script.md`, `planche-001-v3.html` et `.png`. À venir : notes de rendu. Le MP4 final reste hors du dépôt.
+Fichiers : `script.md` (v5), `post-linkedin.md` (texte du post), `render/` (code de rendu v5, audio compris), `planche-001-v3.*` (planche historique, antérieure au centrage vertical et au bandeau). Le MP4 final et la voix restent hors du dépôt.
 
-Squelette : voir `bible/series/avant-douvrir-power-bi.md`.
+Squelette de la série : `bible/series/avant-douvrir-power-bi.md`.
